@@ -1,0 +1,129 @@
+﻿/*generics*/
+	html{
+		overflow: hidden !important; /*hide the master overflow*/
+	}
+
+	body{
+		font-family: Roboto;
+	}
+
+	.back-plate{
+		background: #63b7dd;
+		width: 100%;
+		background-image: linear-gradient(90deg, #3b4bda, #0099ff);
+	}
+
+/*modals*/
+	.modal-mask{
+		position: fixed;
+		z-index: 100;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, .5);
+		transition: opacity .3s ease;
+	}
+
+/*icons*/
+	.dizagara-icon-gray{
+		color: #6b6b6b
+	}
+
+	.dizagara-margin-right{
+		margin-right: 3px;
+	}
+	.dizagara-margin-left{
+		margin-left: 3px;
+	}
+
+/*buttons*/
+	.dizagara-button-banner {
+		background-color: #ad3017 !important;
+		color:#feffce !important;
+		width: 175px;
+		margin: 5px;
+		border-radius: 5px !important;
+	}
+
+	.dizagara-button-home {
+		background-color: #ad3017 !important;
+		color:#feffce !important;
+		width: 50px;
+		margin: 5px;
+		border-radius: 5px !important;
+	}
+
+	.dizagara-button-width-short {
+		width: 100px;
+	}
+
+	.dizagara-button-width-medium {
+		width: 200px;
+	}
+
+	.dizagara-button-width-long {
+		width: 300px;
+	}
+	
+	.dizagara-button-red{
+		border: 1px solid #691515 !important;
+		background-color: #ff4137 !important;
+		color:white !important;	
+	}
+
+	.dizagara-button-orange{
+		border: 1px solid #6b2323 !important;
+		background-color: #ff7b00 !important;
+		color:white !important;
+	}
+
+	.dizagara-button-green{
+		border: 1px solid #206412 !important;
+		background-color: #26b558 !important;
+		color:white !important;
+	}
+
+/*panel header*/
+	.dizagara-panel-header{
+		font-weight: bold;
+		color: #a12600;
+		margin-bottom: -10px;
+		padding: 5px;
+	}
+
+/*panel sub*/
+	.dizagara-sub-header{
+		color: white; 
+		background-color: #ad3017 !important;
+
+	}
+
+/*panel body*/
+	.dizagara-panel-body{
+		border: 1px solid #c9a591 !important;
+	}
+
+/*orange outline*/
+	.dizagara-outline-orange {
+		border: 1px solid #6b2323 !important;
+	}
+
+/*small button*/
+	.dizagara-round-small{
+		height: 20px !important;
+		width: 20px !important;
+	}
+
+/*medium button*/
+	.dizagara-round-medium{
+		height: 30px !important;
+		width: 30px !important;
+	}
+
+/*printing*/
+	@media print {
+		.no-print {
+			visibility: hidden;
+		}
+	}
